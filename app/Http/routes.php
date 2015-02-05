@@ -11,7 +11,13 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+if ( env('DEV') ) {
+    Route::get('/', function() {
+        return view('splash');
+    });
+} else {
+    Route::get('/', 'WelcomeController@index');
+}
 
 Route::get('home', 'HomeController@index');
 
