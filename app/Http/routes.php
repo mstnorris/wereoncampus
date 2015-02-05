@@ -19,6 +19,10 @@ if ( env('DEV') ) {
     Route::get('/', 'WelcomeController@index');
 }
 
+Route::get('letmein', function() {
+   return view('splash');
+});
+
 Route::get('home', 'HomeController@index');
 
 Route::controllers([
