@@ -1,6 +1,7 @@
 <html>
 	<head>
-		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/animate.css"/>
 
 		<style>
 			body {
@@ -11,7 +12,7 @@
 				color: #B0BEC5;
 				display: table;
 				font-weight: 100;
-				font-family: 'Lato';
+				font-family: 'Open Sans', sans-serif;
 			}
 
 			.container {
@@ -38,8 +39,7 @@
 	<body>
 		<div class="container">
 			<div class="content">
-				<div class="title">Laravel 5</div>
-				<div class="quote">{{ Inspiring::quote() }}</div>
+				<div class="title animated zoomInDown">We're on Campus</div>
 			</div>
 		</div>
 	</body>
